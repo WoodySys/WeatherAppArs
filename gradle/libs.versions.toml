@@ -1,0 +1,33 @@
+[versions]
+activityComposeVersion = "1.13.0"
+agp = "8.2.2"
+# Ставим ту версию, которую требовала ошибка
+composeBomVersion = "2026.03.01"
+coreKtxVersion = "1.18.0"
+kotlin = "2.2.10"
+coreKtx = "1.12.0"
+lifecycleRuntimeKtx = "2.7.0"
+activityCompose = "1.8.2"
+composeBom = "2023.10.01"
+lifecycleRuntimeKtxVersion = "2.10.0.0"
+retrofit = "2.9.0"
+coil = "2.5.0"
+
+[libraries]
+androidx-activity-compose-v1130 = { module = "androidx.activity:activity-compose", version.ref = "activityComposeVersion" }
+androidx-compose-bom-v20260301 = { module = "androidx.compose:compose-bom", version.ref = "composeBomVersion" }
+androidx-compose-material3 = { module = "androidx.compose.material3:material3" }
+androidx-compose-ui = { module = "androidx.compose.ui:ui" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-core-ktx-v1180 = { module = "androidx.core:core-ktx", version.ref = "coreKtxVersion" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-lifecycle-runtime-ktx-v21000 = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtxVersion" }
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleRuntimeKtx" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
+
